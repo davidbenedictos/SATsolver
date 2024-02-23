@@ -18,6 +18,7 @@ uint decisionLevel;
 
 vector<vector <int>> occurListPos;
 vector<vector <int>> occurListNeg;
+vector<int> contador;
 
 
 void readClauses( ){
@@ -33,15 +34,23 @@ void readClauses( ){
   clauses.resize(numClauses);  
   occurListPos.resize(numVars + 1);
   occurListNeg.resize(numVars + 1);
+  contador.resize(numVars + 1, 0);
   // Read clauses
   for (uint i = 0; i < numClauses; ++i) {
     int lit;
     while (cin >> lit and lit != 0) {
       clauses[i].push_back(lit);
-      if (lit > 0) occurListPos[lit].push_back(i);
-            else occurListNeg[-lit].push_back(i);
+      if (lit > 0){
+           occurListPos[lit].push_back(i);
+           ++contador[lit];
+      } else{
+       occurListNeg[-lit].push_back(i);
+       ++contador[-lit];
+       }
     }
-  }    
+  } 
+    // ordenamos contador por veces que aparece un literal
+     
 
 }
 
@@ -68,8 +77,8 @@ bool propagateGivesConflict ( ) {
   while ( indexOfNextLitToPropagate < modelStack.size() ) {
     vector<int>* claus;
     int lit = modelStack[indexOfNextLitToPropagate];
-    if (literal <= 0) claus = &occurListPos[-lit];
-    else claus = &negativeClauses[literal];
+    if (lit <= 0) claus = &occurListPos[-lit];
+    else claus = &occurListNeg[lit];
     ++indexOfNextLitToPropagate;
 
     for (uint i = 0; i < claus->size(); ++i) {
@@ -112,10 +121,23 @@ void backtrack(){
 
 // Heuristic for finding the next decision literal:
 int getNextDecisionLiteral(){
+/* 
+    Heuristica que ya nos dan
   for (uint i = 1; i <= numVars; ++i) // stupid heuristic:
     if (model[i] == UNDEF) return i;  // returns first UNDEF var, positively
   return 0; // reurns 0 when all literals are defined
+ */ 
+    int auxCont = -1;
+    int literalIndex = 0;
+    for (uint i = 1; i <= numVars; ++i) {
+     if (contador[i] > auxCont && model[i] == UNDEF) {
+       auxCont = contador[i];
+          literalIndex = i;
+        }
+    }
+    return literalIndex; // returns 0 when all literals are defined
 }
+
 
 void checkmodel(){
   for (uint i = 0; i < numClauses; ++i){
