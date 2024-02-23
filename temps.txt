@@ -1,0 +1,403 @@
+
+------------------
+vars-100-01.cnf
+KisSAT:
+SATISFIABLE
+0 s
+misat:
+SATISFIABLE
+0 s
+
+------------------
+vars-100-02.cnf
+KisSAT:
+SATISFIABLE
+0 s
+misat:
+SATISFIABLE
+0 s
+
+------------------
+vars-100-03.cnf
+KisSAT:
+UNSATISFIABLE
+0 s
+misat:
+UNSATISFIABLE
+1 s
+
+------------------
+vars-100-04.cnf
+KisSAT:
+UNSATISFIABLE
+0 s
+misat:
+UNSATISFIABLE
+0 s
+
+------------------
+vars-100-05.cnf
+KisSAT:
+SATISFIABLE
+0 s
+misat:
+SATISFIABLE
+0 s
+
+------------------
+vars-100-06.cnf
+KisSAT:
+SATISFIABLE
+0 s
+misat:
+SATISFIABLE
+0 s
+
+------------------
+vars-100-07.cnf
+KisSAT:
+SATISFIABLE
+0 s
+misat:
+SATISFIABLE
+0 s
+
+------------------
+vars-100-08.cnf
+KisSAT:
+SATISFIABLE
+0 s
+misat:
+SATISFIABLE
+0 s
+
+------------------
+vars-100-09.cnf
+KisSAT:
+UNSATISFIABLE
+0 s
+misat:
+UNSATISFIABLE
+0 s
+
+------------------
+vars-100-10.cnf
+KisSAT:
+UNSATISFIABLE
+0 s
+misat:
+UNSATISFIABLE
+0 s
+
+------------------
+vars-150-01.cnf
+KisSAT:
+SATISFIABLE
+0 s
+misat:
+SATISFIABLE
+0 s
+
+------------------
+vars-150-02.cnf
+KisSAT:
+SATISFIABLE
+1 s
+misat:
+SATISFIABLE
+0 s
+
+------------------
+vars-150-03.cnf
+KisSAT:
+SATISFIABLE
+0 s
+misat:
+SATISFIABLE
+0 s
+
+------------------
+vars-150-04.cnf
+KisSAT:
+SATISFIABLE
+0 s
+misat:
+SATISFIABLE
+0 s
+
+------------------
+vars-150-05.cnf
+KisSAT:
+UNSATISFIABLE
+0 s
+misat:
+UNSATISFIABLE
+1 s
+
+------------------
+vars-150-06.cnf
+KisSAT:
+SATISFIABLE
+0 s
+misat:
+SATISFIABLE
+0 s
+
+------------------
+vars-150-07.cnf
+KisSAT:
+UNSATISFIABLE
+0 s
+misat:
+UNSATISFIABLE
+0 s
+
+------------------
+vars-150-08.cnf
+KisSAT:
+SATISFIABLE
+0 s
+misat:
+SATISFIABLE
+0 s
+
+------------------
+vars-150-09.cnf
+KisSAT:
+SATISFIABLE
+0 s
+misat:
+SATISFIABLE
+0 s
+
+------------------
+vars-150-10.cnf
+KisSAT:
+UNSATISFIABLE
+1 s
+misat:
+UNSATISFIABLE
+0 s
+
+------------------
+vars-200-01.cnf
+KisSAT:
+UNSATISFIABLE
+0 s
+misat:
+UNSATISFIABLE
+2 s
+
+------------------
+vars-200-02.cnf
+KisSAT:
+SATISFIABLE
+0 s
+misat:
+SATISFIABLE
+0 s
+
+------------------
+vars-200-03.cnf
+KisSAT:
+UNSATISFIABLE
+0 s
+misat:
+UNSATISFIABLE
+1 s
+
+------------------
+vars-200-04.cnf
+KisSAT:
+UNSATISFIABLE
+1 s
+misat:
+UNSATISFIABLE
+0 s
+
+------------------
+vars-200-05.cnf
+KisSAT:
+UNSATISFIABLE
+1 s
+misat:
+UNSATISFIABLE
+2 s
+
+------------------
+vars-200-06.cnf
+KisSAT:
+SATISFIABLE
+0 s
+misat:
+SATISFIABLE
+6 s
+
+------------------
+vars-200-07.cnf
+KisSAT:
+UNSATISFIABLE
+1 s
+misat:
+UNSATISFIABLE
+4 s
+
+------------------
+vars-200-08.cnf
+KisSAT:
+SATISFIABLE
+0 s
+misat:
+SATISFIABLE
+0 s
+
+------------------
+vars-200-09.cnf
+KisSAT:
+SATISFIABLE
+0 s
+misat:
+SATISFIABLE
+0 s
+
+------------------
+vars-200-10.cnf
+KisSAT:
+UNSATISFIABLE
+1 s
+misat:
+UNSATISFIABLE
+2 s
+
+------------------
+vars-250-01.cnf
+KisSAT:
+UNSATISFIABLE
+2 s
+misat:
+UNSATISFIABLE
+27 s
+
+------------------
+vars-250-02.cnf
+KisSAT:
+UNSATISFIABLE
+3 s
+misat:
+UNSATISFIABLE
+57 s
+
+------------------
+vars-250-03.cnf
+KisSAT:
+SATISFIABLE
+0 s
+misat:
+SATISFIABLE
+11 s
+
+------------------
+vars-250-04.cnf
+KisSAT:
+SATISFIABLE
+1 s
+misat:
+SATISFIABLE
+4 s
+
+------------------
+vars-250-05.cnf
+KisSAT:
+UNSATISFIABLE
+3 s
+misat:
+UNSATISFIABLE
+24 s
+
+------------------
+vars-250-06.cnf
+KisSAT:
+UNSATISFIABLE
+4 s
+misat:
+UNSATISFIABLE
+80 s
+
+------------------
+vars-250-07.cnf
+KisSAT:
+SATISFIABLE
+1 s
+misat:
+SATISFIABLE
+24 s
+
+------------------
+vars-250-08.cnf
+KisSAT:
+UNSATISFIABLE
+4 s
+misat:
+UNSATISFIABLE
+21 s
+
+------------------
+vars-250-09.cnf
+KisSAT:
+SATISFIABLE
+0 s
+misat:
+SATISFIABLE
+6 s
+
+------------------
+vars-250-10.cnf
+KisSAT:
+SATISFIABLE
+0 s
+misat:
+SATISFIABLE
+2 s
+
+------------------
+vars-300-01.cnf
+KisSAT:
+SATISFIABLE
+2 s
+misat:
+SATISFIABLE
+22 s
+
+------------------
+vars-300-02.cnf
+KisSAT:
+UNSATISFIABLE
+43 s
+misat:
+UNSATISFIABLE
+536 s
+
+------------------
+vars-300-03.cnf
+KisSAT:
+UNSATISFIABLE
+19 s
+misat:
+UNSATISFIABLE
+162 s
+
+------------------
+vars-300-04.cnf
+KisSAT:
+UNSATISFIABLE
+26 s
+misat:
+UNSATISFIABLE
+593 s
+
+------------------
+vars-300-05.cnf
+KisSAT:
+SATISFIABLE
+7 s
+misat:
